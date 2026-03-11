@@ -13,6 +13,7 @@ Turn ideas into a clear JS/TS design and scope before any implementation.
 - Prefer multiple-choice questions when possible.
 - Always propose 2-3 approaches with tradeoffs and a recommendation.
 - Keep output in Czech per language rules.
+- Hard stop after design approval: do not proceed to planning or implementation until the user explicitly approves switching to js-writing-plans.
 
 ## Checklist (in order)
 1. Explore current project context (files, docs, recent changes).
@@ -45,6 +46,7 @@ digraph js_brainstorming {
 ```
 
 **Terminal state: invoke `js-writing-plans`.**
+**Stop condition:** After the user approves the design, ask for explicit permission to switch to `js-writing-plans` and wait. Do not continue in the same turn.
 
 ## Process guidance
 ### Understanding the idea

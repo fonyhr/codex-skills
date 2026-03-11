@@ -33,6 +33,7 @@ digraph js_writing_plans {
 - File name format: `{dd-mm-yyyy}-{kebab-case-name}-plan.md` (example: `10-03-2026-api-cache-plan.md`).
 - If `docs/plan/` does not exist, create it.
 - The response should reference the created file and briefly summarize its contents.
+- Hard stop after writing the plan: ask whether to continue in the current context or switch to a new context and use the created plan. Do not start implementation.
 
 ## Rules
 - Avoid overly detailed micro-steps.

@@ -16,13 +16,17 @@ Load plan, review critically, execute tasks in batches, report for review betwee
 - If deviating, explain why and propose a plan update.
 - After each step, state what changed.
 - Do not start implementation on main/master without explicit user consent.
+- Do not begin until the user provides the plan name (or full path) to implement.
+- The plan must exist under docs/plan/ unless the user explicitly provides a different location.
 
 ## Process
 ### Step 1: Load and Review Plan
-1. Read plan file or user-provided plan text.
-2. Review critically and identify questions or concerns.
-3. If concerns: raise them before starting.
-4. If no concerns: create a task list and proceed.
+1. Ask for the plan name to implement (prefer a file in docs/plan/).
+2. Verify the plan file exists; if not, ask for the correct name/path.
+3. Read the plan file or user-provided plan text.
+4. Review critically and identify questions or concerns.
+5. If concerns: raise them before starting.
+6. If no concerns: create a task list and proceed.
 
 ### Step 2: Execute Batch
 **Default: First 3 tasks**
