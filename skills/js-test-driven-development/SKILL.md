@@ -1,6 +1,8 @@
 ---
 name: js-test-driven-development
-description: Test-driven development for JavaScript/TypeScript (Jest, Vitest, Playwright). Use when designing tests, starting from a failing test, or improving coverage.
+description: Use when doing JS/TS test-driven development (Jest, Vitest, Playwright), designing tests, starting from a failing test, or improving coverage.
+metadata:
+  short-description: JS/TS test-driven development
 ---
 # JS test-driven development
 

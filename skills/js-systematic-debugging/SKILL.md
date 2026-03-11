@@ -1,6 +1,8 @@
 ---
 name: js-systematic-debugging
-description: Systematic debugging of JavaScript/TypeScript issues (runtime errors, build failures, tests). Use to isolate root cause and propose a fix.
+description: Use when debugging JS/TS issues (runtime errors, build failures, failing tests) to systematically isolate the root cause and propose a fix.
+metadata:
+  short-description: Systematic JS/TS debugging
 ---
 # JS systematic debugging
 

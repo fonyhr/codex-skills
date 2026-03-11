@@ -1,6 +1,8 @@
 ---
 name: js-requesting-code-review
-description: Prepare a code review request for JavaScript/TypeScript changes. Use when the user wants a review or a summary for teammates.
+description: Use when the user wants a JS/TS code review request or a summary for teammates; prepare a concise review request for JavaScript/TypeScript changes.
+metadata:
+  short-description: Draft JS/TS review request
 ---
 # JS requesting code review
 

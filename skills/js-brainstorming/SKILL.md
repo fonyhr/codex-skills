@@ -1,6 +1,8 @@
 ---
 name: js-brainstorming
-description: Generate ideas and solution variants for JavaScript/TypeScript development (frontend, backend, tooling). Use when designing features, architecture, API, UX, or exploring alternatives.
+description: Use when the user needs JS/TS brainstorming to design features, architecture, API, or UX, or to explore alternatives; generate ideas and solution variants for frontend, backend, or tooling work.
+metadata:
+  short-description: JS/TS design brainstorming
 ---
 # JS brainstorming
 

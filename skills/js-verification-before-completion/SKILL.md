@@ -1,6 +1,8 @@
 ---
 name: js-verification-before-completion
-description: Verify correctness of JavaScript/TypeScript changes before closing a task. Use to confirm the solution works.
+description: Use when verifying correctness of JS/TS changes before closing a task, to confirm the solution works.
+metadata:
+  short-description: JS/TS verification checklist
 ---
 # JS verification before completion
 

@@ -1,6 +1,8 @@
 ---
 name: writing-skills
 description: Use when creating, updating, or reviewing Codex skills for the JetBrains AI Chat plugin, especially to define triggers, structure, and supporting resources.
+metadata:
+  short-description: Create or update skills
 ---
 # Writing skills
 
@@ -148,3 +150,6 @@ One sentence with a clear purpose.
 
 ## Done
 After creating the skill, ask whether the user wants to add resources or refine the triggers in `description`.
+
+## Language
+- Respond in Czech per the `czech-communication-standard` skill.

@@ -1,6 +1,8 @@
 ---
 name: js-tooling-setup
-description: Setup and maintenance of JS/TS tooling (npm/pnpm/yarn, eslint, prettier, typescript, bundlers). Use for configuration, lint debugging, or version migrations.
+description: Use when setting up or maintaining JS/TS tooling (npm/pnpm/yarn, eslint, prettier, typescript, bundlers), including configuration, lint debugging, or version migrations.
+metadata:
+  short-description: JS/TS tooling setup
 ---
 # JS tooling setup
 

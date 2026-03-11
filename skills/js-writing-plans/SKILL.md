@@ -1,6 +1,8 @@
 ---
 name: js-writing-plans
-description: Create implementation plans for JavaScript/TypeScript code changes, with tests, migrations, and risks in mind. Use for non-trivial edits.
+description: Use when creating JS/TS implementation plans for non-trivial edits, with tests, migrations, and risks in mind.
+metadata:
+  short-description: Write JS/TS plans
 ---
 # JS writing plans
 

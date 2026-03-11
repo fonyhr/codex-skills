@@ -1,43 +1,40 @@
 ---
 name: js-code-review
-description: Use when the user asks for a JavaScript/TypeScript code review of changes between the current branch and another branch.
+description: Use when the user asks for a senior JS/TS code review of the full diff between the current branch and a target branch across all changed files (JS/TS, JSON/YAML, configs, docs), with a Markdown report for GitLab MR threads.
+metadata:
+  short-description: JS/TS diff code review
 ---
 # JS code review
 
 ## Overview
-Provide a senior-level review of JS/TS changes by comparing the current branch against a target branch diff and producing a structured Markdown report.
-
-## When to use
-- The user asks for a code review of JS/TS changes.
-- The user wants a review output that can be pasted into GitLab merge request threads.
-
-## When not to use
-- The user wants implementation or fixes instead of review.
-- The request is about a non-JS/TS codebase.
+Provide a senior-level review of all changes in a JS/TS project by comparing the current branch against a target branch diff and producing a structured Markdown report.
+Answer in Czech per the communication-standard skill. Keep the report template headings in English, but write the concrete findings in Czech.
 
 ## Quick start
 1. Ask for the target branch if it is not provided.
 2. Ask for context: goal of the change, intended behavior, constraints, and testing notes.
-3. Compare the diff between the current branch and the target branch and identify meaningful changes.
+3. Compare the diff between the current branch and the target branch and identify meaningful changes across the entire change set.
 4. Review for correctness, efficiency, conventions, and code similarity to existing project style.
 5. If uncertain about behavior, pause and ask for clarification before continuing.
 6. Write a Markdown report into the `code-review` folder.
 
 ## Procedure
 1. Gather required inputs:
-   - Target branch name (ask if missing).
-   - Context (Jira issue text or a short description of intended outcome).
-   - Any constraints (deadlines, backward compatibility, performance budgets).
+   - Ask for the target branch name if missing.
+   - Ask for context (Jira issue text or a short description of intended outcome).
+   - Ask for constraints (deadlines, backward compatibility, performance budgets).
 2. Compute the change set:
    - Compare the diff between the current branch and the target branch to see all changes (e.g., `git diff <target>...HEAD`).
-   - Focus on code touched by the change; ignore unrelated files when possible.
-3. Review the changes:
-   - Functional correctness and edge cases.
-   - Efficiency and alternative implementations.
-   - Project conventions and consistency with existing code.
-   - Maintainability, readability, and API design.
-   - Types (TypeScript correctness, unsafe casts, any usage).
-   - Linting issues (ESLint) and formatting inconsistencies.
+   - Review the full diff (entire change set), not the whole repository.
+3. Review the changes across all modified files (code, configs, docs, data files):
+   - Check functional correctness and edge cases.
+   - Check the surrounding context of the diff hunk for regressions (e.g., changed assumptions, broken flows, unintended side effects).
+   - Scan nearby files/modules that interact with the change (imports, shared utilities, type defs, config/CI pipelines) for compatibility.
+   - Check efficiency and alternative implementations.
+   - Check project conventions and consistency with existing code.
+   - Check maintainability, readability, and API design.
+   - Check TypeScript types (correctness, unsafe casts, any usage).
+   - Check linting issues (ESLint) and formatting inconsistencies.
 4. If any behavior is unclear:
    - Stop and ask the user for clarification.
    - Resume only after receiving the missing context.
@@ -76,6 +73,9 @@ Provide a senior-level review of JS/TS changes by comparing the current branch a
 ## Security
 - <finding or "No issues found.">
 ```
+
+## Language
+- Respond in Czech per the `czech-communication-standard` skill.
 
 ## Common mistakes
 - Skipping the context request and reviewing without intended behavior.

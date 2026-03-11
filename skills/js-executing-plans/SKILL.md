@@ -1,6 +1,8 @@
 ---
 name: js-executing-plans
-description: Execute approved JavaScript/TypeScript implementation plans with batch checkpoints and strict adherence to plan steps. Use when a written plan is approved and must be executed in a separate session with review checkpoints.
+description: Use when a written JS/TS implementation plan is approved and must be executed with batch checkpoints and strict adherence to plan steps, in a separate session with review checkpoints.
+metadata:
+  short-description: Execute JS/TS plans
 ---
 # JS executing plans
 

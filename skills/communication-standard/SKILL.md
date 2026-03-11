@@ -1,6 +1,8 @@
 ---
 name: communication-standard
 description: Use when the user writes in Czech or wants Czech output; keep Czech as the chat language while ensuring all created files are written in English (including comments, markdown, and documentation).
+metadata:
+  short-description: Czech chat, English files
 ---
 # Communication standard (Czech chat, English files)
 
