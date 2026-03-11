@@ -1,10 +1,10 @@
 ---
-name: js-requesting-code-review
-description: Use when the user wants a JS/TS code review request or a summary for teammates; prepare a concise review request for JavaScript/TypeScript changes.
+name: fcs-requesting-code-review
+description: Use when the user wants a code review request or a summary for teammates; prepare a concise review request for the changes.
 metadata:
-  short-description: Draft JS/TS review request
+  short-description: Draft review request
 ---
-# JS requesting code review
+# Requesting code review
 
 ## What to provide to the reviewer
 - Short goal of the change (1-2 sentences).

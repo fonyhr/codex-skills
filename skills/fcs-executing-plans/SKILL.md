@@ -1,17 +1,17 @@
 ---
-name: js-executing-plans
-description: Use when a written JS/TS implementation plan is approved and must be executed with batch checkpoints and strict adherence to plan steps, in a separate session with review checkpoints.
+name: fcs-executing-plans
+description: Use when a written implementation plan is approved and must be executed with batch checkpoints and strict adherence to plan steps, in a separate session with review checkpoints.
 metadata:
-  short-description: Execute JS/TS plans
+  short-description: Execute plans
 ---
-# JS executing plans
+# Executing plans
 
 ## Overview
 Load plan, review critically, execute tasks in batches, report for review between batches.
 
 **Core principle:** Batch execution with checkpoints for review.
 
-**Announce at start:** "I'm using the js-executing-plans skill to implement this plan."
+**Announce at start:** "I'm using the fcs-executing-plans skill to implement this plan."
 
 ## Rules
 - Stick to the approved plan unless the user says otherwise.

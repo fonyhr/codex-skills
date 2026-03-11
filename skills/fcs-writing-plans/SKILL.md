@@ -1,10 +1,10 @@
 ---
-name: js-writing-plans
-description: Use when creating JS/TS implementation plans for non-trivial edits, with tests, migrations, and risks in mind.
+name: fcs-writing-plans
+description: Use when creating implementation plans for non-trivial edits, with tests, migrations, and risks in mind.
 metadata:
-  short-description: Write JS/TS plans
+  short-description: Write plans
 ---
-# JS writing plans
+# Writing plans
 
 ## Plan must include
 - A short goal.
@@ -14,7 +14,7 @@ metadata:
 
 ## Process flow
 ```dot
-digraph js_writing_plans {
+digraph fcs_writing_plans {
   "Receive approved design" [shape=box];
   "Scope check" [shape=box];
   "Map file structure" [shape=box];

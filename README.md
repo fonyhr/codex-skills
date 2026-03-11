@@ -32,7 +32,7 @@ scripts/install-skill-from-github.py --repo fonyhr/codex-skills --path skills/<s
 Install multiple skills in one command:
 
 ```bash
-scripts/install-skill-from-github.py --repo fonyhr/codex-skills --path skills/communication-standard skills/js-brainstorming skills/js-executing-plans
+scripts/install-skill-from-github.py --repo fonyhr/codex-skills --path skills/communication-standard skills/fcs-brainstorming skills/fcs-executing-plans
 ```
 
 After installation, restart Codex to pick up new skills.

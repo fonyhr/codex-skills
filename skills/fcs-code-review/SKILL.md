@@ -1,13 +1,13 @@
 ---
-name: js-code-review
-description: Use when the user asks for a senior JS/TS code review of the full diff between the current branch and a target branch across all changed files (JS/TS, JSON/YAML, configs, docs), with a Markdown report for GitLab MR threads.
+name: fcs-code-review
+description: Use when the user asks for a senior code review of the full diff between the current branch and a target branch across all changed files (code, configs, docs), with a Markdown report for GitLab MR threads.
 metadata:
-  short-description: JS/TS diff code review
+  short-description: Diff code review
 ---
-# JS code review
+# Code review
 
 ## Overview
-Provide a senior-level review of all changes in a JS/TS project by comparing the current branch against a target branch diff and producing a structured Markdown report.
+Provide a senior-level review of all changes in an application project by comparing the current branch against a target branch diff and producing a structured Markdown report.
 Answer in Czech per the communication-standard skill. Keep the report template headings in English, but write the concrete findings in Czech.
 
 ## Quick start
@@ -33,8 +33,8 @@ Answer in Czech per the communication-standard skill. Keep the report template h
    - Check efficiency and alternative implementations.
    - Check project conventions and consistency with existing code.
    - Check maintainability, readability, and API design.
-   - Check TypeScript types (correctness, unsafe casts, any usage).
-   - Check linting issues (ESLint) and formatting inconsistencies.
+   - Check static types or contracts when applicable (correctness, unsafe casts, any usage).
+   - Check linting and formatting inconsistencies.
 4. If any behavior is unclear:
    - Stop and ask the user for clarification.
    - Resume only after receiving the missing context.
@@ -58,10 +58,10 @@ Answer in Czech per the communication-standard skill. Keep the report template h
 ## Nice-to-have
 - <finding or "No issues found.">
 
-## ESLint
+## Lint/Format
 - <finding or "No issues found.">
 
-## TypeScript
+## Types/Static analysis
 - <finding or "No issues found.">
 
 ## Maintainability

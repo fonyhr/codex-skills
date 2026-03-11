@@ -1,10 +1,10 @@
 ---
-name: js-verification-before-completion
-description: Use when verifying correctness of JS/TS changes before closing a task, to confirm the solution works.
+name: fcs-verification-before-completion
+description: Use when verifying correctness of changes before closing a task, to confirm the solution works.
 metadata:
-  short-description: JS/TS verification checklist
+  short-description: Verification checklist
 ---
-# JS verification before completion
+# Verification before completion
 
 ## Checklist
 - Is the implementation aligned with the requirement?

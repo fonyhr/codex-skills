@@ -1,10 +1,10 @@
 ---
-name: js-test-driven-development
-description: Use when doing JS/TS test-driven development (Jest, Vitest, Playwright), designing tests, starting from a failing test, or improving coverage.
+name: fcs-test-driven-development
+description: Use when doing test-driven development, designing tests, starting from a failing test, or improving coverage.
 metadata:
-  short-description: JS/TS test-driven development
+  short-description: Test-driven development
 ---
-# JS test-driven development
+# Test-driven development
 
 ## Process
 - First describe expected behavior.

@@ -1,13 +1,13 @@
 ---
-name: js-tooling-setup
-description: Use when setting up or maintaining JS/TS tooling (npm/pnpm/yarn, eslint, prettier, typescript, bundlers), including configuration, lint debugging, or version migrations.
+name: fcs-tooling-setup
+description: Use when setting up or maintaining project tooling (package manager, lint/format, build system, CI), including configuration, lint debugging, or version migrations.
 metadata:
-  short-description: JS/TS tooling setup
+  short-description: Tooling setup
 ---
-# JS tooling setup
+# Tooling setup
 
 ## Process
-- Identify the stack (node version, package manager, framework, bundler).
+- Identify the stack (runtime version, package manager, framework, build system).
 - Propose the minimal change and a clear goal.
 - For config changes, mention impact on repo and team (format, lint, build).
 
