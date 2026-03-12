@@ -30,11 +30,12 @@ Answer in Czech per the communication-standard skill. Keep the report template h
    - Check functional correctness and edge cases.
    - Check the surrounding context of the diff hunk for regressions (e.g., changed assumptions, broken flows, unintended side effects).
    - Scan nearby files/modules that interact with the change (imports, shared utilities, type defs, config/CI pipelines) for compatibility.
-   - Check efficiency and alternative implementations.
+   - Check efficiency and alternative implementations. Consider whether the diff can be solved more simply or with lower cost.
    - Check project conventions and consistency with existing code.
    - Check maintainability, readability, and API design.
    - Check static types or contracts when applicable (correctness, unsafe casts, any usage).
    - Check linting and formatting inconsistencies.
+   - Search for similar solutions already present in the project and note opportunities to reuse, merge, or replace the new code.
 4. If any behavior is unclear:
    - Stop and ask the user for clarification.
    - Resume only after receiving the missing context.
@@ -83,6 +84,7 @@ Answer in Czech per the communication-standard skill. Keep the report template h
 - Skipping the context request and reviewing without intended behavior.
 - Mixing categories or leaving findings unclassified.
 - Writing long paragraphs instead of short bullets.
+- Failing to look for existing implementations that could be reused or merged.
 
 ## Quality checks
 - The target branch was confirmed or explicitly provided.
