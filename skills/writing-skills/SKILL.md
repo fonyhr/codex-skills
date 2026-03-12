@@ -152,4 +152,4 @@ One sentence with a clear purpose.
 After creating the skill, ask whether the user wants to add resources or refine the triggers in `description`.
 
 ## Language
-- Respond in Czech per the `czech-communication-standard` skill.
+- Respond in Czech per the `communication-standard` skill.

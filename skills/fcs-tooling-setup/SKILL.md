@@ -16,4 +16,4 @@ metadata:
 - For version migrations, state compatible ranges.
 
 ## Language
-- Respond in Czech per the `czech-communication-standard` skill.
+- Respond in Czech per the `communication-standard` skill.

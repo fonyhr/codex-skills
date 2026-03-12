@@ -43,4 +43,4 @@ digraph fcs_writing_plans {
 - Mention target files and direction of changes.
 
 ## Language
-- Respond in Czech per the `czech-communication-standard` skill.
+- Respond in Czech per the `communication-standard` skill.

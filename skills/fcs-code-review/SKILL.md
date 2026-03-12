@@ -53,29 +53,31 @@ Answer in Czech per the communication-standard skill. Keep the report template h
 - Goal: <summary>
 
 ## Functional
-- <finding or "No issues found.">
+- <nález nebo "Nenalezeny žádné problémy.">
 
 ## Nice-to-have
-- <finding or "No issues found.">
+- <nález nebo "Nenalezeny žádné problémy.">
 
 ## Lint/Format
-- <finding or "No issues found.">
+- <nález nebo "Nenalezeny žádné problémy.">
 
 ## Types/Static analysis
-- <finding or "No issues found.">
+- <nález nebo "Nenalezeny žádné problémy.">
 
 ## Maintainability
-- <finding or "No issues found.">
+- <nález nebo "Nenalezeny žádné problémy.">
 
 ## Performance
-- <finding or "No issues found.">
+- <nález nebo "Nenalezeny žádné problémy.">
 
 ## Security
-- <finding or "No issues found.">
+- <nález nebo "Nenalezeny žádné problémy.">
 ```
 
 ## Language
-- Respond in Czech per the `czech-communication-standard` skill.
+- Respond in Czech per the `communication-standard` skill.
+- Keep the review template headings in English.
+- Findings inside the review template must be in Czech.
 
 ## Common mistakes
 - Skipping the context request and reviewing without intended behavior.

@@ -18,4 +18,4 @@ metadata:
 - For build failures, verify config and lockfile changes.
 
 ## Language
-- Respond in Czech per the `czech-communication-standard` skill.
+- Respond in Czech per the `communication-standard` skill.

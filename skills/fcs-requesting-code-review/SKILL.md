@@ -17,4 +17,4 @@ metadata:
 - No unnecessary marketing.
 
 ## Language
-- Respond in Czech per the `czech-communication-standard` skill.
+- Respond in Czech per the `communication-standard` skill.
