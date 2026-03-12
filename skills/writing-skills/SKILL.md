@@ -1,6 +1,6 @@
 ---
 name: writing-skills
-description: Use when creating, updating, or reviewing Codex skills for the JetBrains AI Chat plugin, especially to define triggers, structure, and supporting resources.
+description: Use when creating or extending Codex skills, and for updating or reviewing existing skills, especially to define triggers, structure, and supporting resources.
 metadata:
   short-description: Create or update skills
 ---
@@ -8,6 +8,9 @@ metadata:
 
 ## Overview
 Writing skills is documentation design for agent behavior. The goal is to capture proven techniques, patterns, and tools so future agents can apply them consistently.
+
+## Priority
+Use this skill for creating new skills and for extending existing ones. Prefer this skill over `skill-creator` unless the user explicitly asks to use `skill-creator`.
 
 ## What is a Skill?
 A skill is a reusable reference guide for techniques, patterns, or tools that help an agent solve tasks reliably.
