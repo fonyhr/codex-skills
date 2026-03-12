@@ -29,6 +29,7 @@ Answer in Czech per the communication-standard skill. Keep the report template h
 3. Review the changes across all modified files (code, configs, docs, data files):
    - Identify the primary language(s) and any framework(s) used by the change (e.g., React, Vue, Angular, Next.js).
    - If the project uses Vue, load and follow the `vue-best-practices` skill.
+   - If the project uses React 19, load and follow the `react-best-practices` skill.
    - Check functional correctness and edge cases.
    - Check the surrounding context of the diff hunk for regressions (e.g., changed assumptions, broken flows, unintended side effects).
    - Scan nearby files/modules that interact with the change (imports, shared utilities, type defs, config/CI pipelines) for compatibility.

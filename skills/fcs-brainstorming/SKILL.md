@@ -20,6 +20,7 @@ Turn ideas into a clear application design and scope before any implementation.
 ## Checklist (in order)
 1. Explore current project context (files, docs, recent changes).
    - If the project uses Vue 3, load and follow the `vue-best-practices` skill.
+   - If the project uses React 19, load and follow the `react-best-practices` skill.
 2. Clarify goals and constraints (platform, framework, build, runtime).
 3. Ask clarifying questions one at a time.
 4. Propose 2-3 approaches with tradeoffs and your recommendation.
