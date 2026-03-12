@@ -1,6 +1,6 @@
 ---
 name: fcs-code-review
-description: Use when the user asks for a senior code review of the full diff between the current branch and a target branch across all changed files (code, configs, docs), with a Markdown report for GitLab MR threads.
+description: Use when the user requests a senior review of the full diff between the current branch and a target branch across all changed files (code, configs, docs), producing a Markdown report for GitLab MR threads.
 metadata:
   short-description: Diff code review
 ---

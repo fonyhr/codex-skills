@@ -1,6 +1,6 @@
 ---
 name: writing-skills
-description: Use when creating or extending Codex skills, and for updating or reviewing existing skills, especially to define triggers, structure, and supporting resources.
+description: Use when creating, extending, updating, or reviewing Codex skills, especially to define triggers, structure, and supporting resources.
 metadata:
   short-description: Create or update skills
 ---

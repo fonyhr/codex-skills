@@ -1,6 +1,6 @@
 ---
 name: fcs-brainstorming
-description: Use when the user needs application design brainstorming for features, architecture, API, or UX, or to explore alternatives; generate ideas and solution variants for frontend, backend, or tooling work.
+description: Use before any creative work that creates features, builds components, adds functionality, or changes behavior; explore user intent, requirements, and design before implementation.
 metadata:
   short-description: Application design brainstorming
 ---

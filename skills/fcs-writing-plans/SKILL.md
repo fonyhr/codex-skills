@@ -1,6 +1,6 @@
 ---
 name: fcs-writing-plans
-description: Use when creating implementation plans for non-trivial edits, with tests, migrations, and risks in mind.
+description: Use when creating a non-trivial implementation plan (steps, tests, risks) before any coding begins.
 metadata:
   short-description: Write plans
 ---

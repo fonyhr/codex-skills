@@ -1,6 +1,6 @@
 ---
 name: fcs-executing-plans
-description: Use when a written implementation plan is approved and must be executed with batch checkpoints and strict adherence to plan steps, in a separate session with review checkpoints.
+description: Use after a written implementation plan is approved and must be executed in batches with review checkpoints and strict adherence to plan steps.
 metadata:
   short-description: Execute plans
 ---

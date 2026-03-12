@@ -1,6 +1,6 @@
 ---
 name: vue-best-practices
-description: Use when the task involves Vue.js (Vue 3, .vue files, Vue Router, Pinia, or Vite with Vue).
+description: Use whenever a task involves Vue 3 or Vue tooling (.vue files, Vue Router, Pinia, or Vite with Vue).
 ---
 
 # Vue Best Practices Workflow
