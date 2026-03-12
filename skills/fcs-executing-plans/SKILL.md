@@ -55,6 +55,7 @@ Based on feedback:
 After all tasks complete and verified:
 - Summarize impact.
 - Propose quick verification.
+- Invoke `fcs-requesting-code-review` and proceed only after completion.
 
 ## When to Stop and Ask for Help
 Stop executing immediately when:

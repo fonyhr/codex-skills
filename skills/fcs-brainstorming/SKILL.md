@@ -14,7 +14,6 @@ Turn ideas into a clear application design and scope before any implementation.
 - Ask only one question per message.
 - Prefer multiple-choice questions when possible.
 - Always propose 2-3 approaches with tradeoffs and a recommendation.
-- Keep output in Czech per language rules.
 - Hard stop after design approval: do not proceed to planning or implementation until the user explicitly approves switching to fcs-writing-plans.
 
 ## Checklist (in order)
