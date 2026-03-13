@@ -36,6 +36,7 @@ digraph fcs_writing_plans {
 - If `docs/plan/` does not exist, create it.
 - The response should reference the created file and briefly summarize its contents.
 - Hard stop after writing the plan: ask whether to continue in the current context or switch to a new context and use the created plan. Do not start implementation.
+- Also ask whether to create an analysis markdown in `docs/analysis/` instead of moving to executing plans.
 
 ## Rules
 - Avoid overly detailed micro-steps.
